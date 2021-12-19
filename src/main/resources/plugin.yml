@@ -1,0 +1,23 @@
+name: DoubleMint
+version: '${project.version}'
+main: org.lime.doublemint.Main
+api-version: 1.17
+authors: [ LimeEdits ]
+commands:
+  Feed:
+    description: Fills Your Hunger
+    usage: /<command>
+    aliases:
+      - feed
+      - Feed
+      - eat
+      - Eat
+
+  Chest:
+    description: Personal Vault
+    usage: /<Command>
+  armorstand:
+    description: Create a armor stand
+    usage: /<command>
+    aliases:
+      - as

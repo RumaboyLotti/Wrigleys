@@ -36,6 +36,4 @@ commands:
   sign:
     description: spawna  sign
     usage: /<command>
-  sign2:
-    description: create a sign
-    usage: /<command>
+

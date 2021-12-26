@@ -32,7 +32,6 @@ public final class  Main extends JavaPlugin {
         getCommand("Token").setExecutor(new TokenCommand());
         getCommand("hologram").setExecutor(new HologramCommand());
         getCommand("sign").setExecutor(new Sign());
-        getCommand("sign2").setExecutor(new Sign());
 
         //Registering Events
         getServer().getPluginManager().registerEvents(new EnchantBottle(), this);

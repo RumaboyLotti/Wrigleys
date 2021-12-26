@@ -12,7 +12,11 @@ public class FeedCommand implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
         if(sender instanceof Player p){
-            p.setFoodLevel(20);
+            if(p.hasPermission("wrigleys.feed")) {
+                p.setFoodLevel(20);
+            }else{
+                p.sendMessage("You do not have the required permission");
+            }
         p.sendMessage(ChatColor.DARK_GRAY + "" + "Delicious");
             }
 

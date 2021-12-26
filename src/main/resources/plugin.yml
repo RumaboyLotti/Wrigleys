@@ -13,11 +13,29 @@ commands:
       - eat
       - Eat
 
-  Chest:
-    description: Personal Vault
+  Token:
+    description: Token Gui
     usage: /<Command>
+    aliases:
+      - Tokens
+      - tokens
+      - token
+
   armorstand:
     description: Create a armor stand
     usage: /<command>
     aliases:
       - as
+  hologram:
+    description: Spawn a Hologrm
+    usage: /<command>
+    aliases:
+      - Hologram
+      - holograms
+      - Holograms
+  sign:
+    description: spawna  sign
+    usage: /<command>
+  sign2:
+    description: create a sign
+    usage: /<command>
